@@ -5,7 +5,7 @@ import WeatherForecast from "./WeatherForecast";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 
-const api_key = 'dfadec88074b4223885220505241707'//import.meta.env.VITE_WEATHER_APP_API_KEY;
+const api_key = "dfadec88074b4223885220505241707"; //import.meta.env.VITE_WEATHER_APP_API_KEY;
 
 const WeatherScreen = () => {
   const [userCurrentcity, setUserCurrentCity] = useState("");
