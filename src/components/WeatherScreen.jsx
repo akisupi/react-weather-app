@@ -71,7 +71,7 @@ const WeatherScreen = () => {
   const getWeatherData = async (cityName) => {
     try {
       const response = await axios.get(
-        `http://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${cityName}&days=7&aqi=no&alerts=no`
+        `https://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${cityName}&days=7&aqi=no&alerts=no`
       );
       setWeatherData(response.data);
       setError(null); // clear any previous error
