@@ -2,7 +2,7 @@
 
 ![Screenshot_20240721_185642_Chrome](https://github.com/user-attachments/assets/f0e8aa99-1f6e-4cfa-9555-fbd2721e0ae3)
 
-## About the project
+# About the project
 This is my fourth react project as part of my journey to mastering react .
 In this project, I used key react development concepts like **hooks** (`useState`, `useRef`, `useEffect`), **props and prop drilling** and more.
 I also consumed two APIs i.e the weather API and geolocation API.
